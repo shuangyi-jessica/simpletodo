@@ -1,1 +1,13 @@
-﻿
+﻿resource test 'Microsoft.Compute/sshPublicKeys@2023-03-01' = {
+
+  name: 'test'
+
+  location: 'westus2'
+
+  properties: {
+
+    publicKey: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDCuctee5QdJQ4YsmLx8rRBNdkmdClE/iPctiKUaL9SroySjiyHy/T9pQYtRKeQigtjmG17EfR6cNkx7jMMZDZ+A40i0se2LFpSyNMEaLpLZgKATHZroRemIMYFcWccjqZyClCGhVs9OYbvuDw6t2uBfg6hKdDpyZbCPQNvLqJwKs5+4JVLstyJefc8tG+K70G38QmDeRpAqv4MsgEr7g6WpLaD2Q+tCvlW9Pw/o3lClfuCeqUaRxSejHIYouBzx9yrAet7iJcEOXcIl9PWVCVRtstK1vgAXAVGy/+t6VI+v3k/7I2IevaS3ZGGxN4551zqpo7o2vxkBjua+vc9m4/RXxOQdSbZPLLRQiBE5H/unxC+l4zOyA/Dd0wgYf5IhnbyW5XqaImw/ZCGpjRAnStItvrX3lG8/Bes2VI2i5prvqoIf24k9yWkXUliHchL8C8l/JBt3bbodi6xETBSjKk0u2Q2a62IkApLWNWXNjVHapiLEjAUa0yF8Q8pchl7uJhFsi8HfL8D1cjBQYUbHx+H0Ju/HKHfqDCH2F29yWfqQ1dus2Ng01hu6yiyU8Eyt70pNisf8pcsAQuEmtIh7Ufdnn/+hi2Pi25hhWk5YA/GgEwf4ddLZvlZus6wdMyCanX8eN6T/tNUSEaL6FhS05b8MetCZ1xuylaIB2Kv7FbvRQ=='
+
+  }
+
+}
