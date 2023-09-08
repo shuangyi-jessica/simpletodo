@@ -1,0 +1,13 @@
+﻿[Unit]
+Description=simple to do
+
+[Service]
+User=root
+WorkingDirectory=/home/linuxvm/simpletodo/src
+ExecStart=/home/linuxvm/simpletodo/src/run.sh
+# optional items below
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
