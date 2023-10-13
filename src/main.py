@@ -1,4 +1,4 @@
-﻿print("Hello, World!")
+﻿#!/bin/env python
 
 from typing import Union
 
